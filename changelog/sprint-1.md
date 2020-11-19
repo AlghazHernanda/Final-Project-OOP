@@ -1,12 +1,12 @@
 # Scrum Report (Sprint 1)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 18/11/2020 to 24/11/2020
 
 ## Team (Insert your name)
-| NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| NPM           | Name                      |
+| ------------- |---------------------------|              
+| 140810190069  | Mohamad Alghaz Hernanda   |
+| 140810190003  | Muhammad Galang Satria    |
+| 140810190023  | Roisyal Bariz             |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
@@ -17,8 +17,8 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| 1.1 | Mempelajari Jframe | Alghaz,bariz,galang | TO DO |
+| 1.2 | Membuat Trello | Semua | Done |
 
 ## Retrospective 
 
