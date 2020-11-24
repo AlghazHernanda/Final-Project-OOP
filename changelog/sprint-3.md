@@ -1,5 +1,5 @@
 # Scrum Report (Sprint 1)
-| From 18/11/2020 to 24/11/2020
+| From 3/11/2020 to 10/11/2020
 
 ## Team (Insert your name)
 | NPM           | Name                      |
@@ -13,13 +13,13 @@
 | ------------- |-------------- |
 | n             | n             |
 
-## Sprint 1 Backlog
+## Sprint 3 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Mempelajari Jframe | Alghaz,bariz,galang | TO DO |
-| 1.2 | Membuat Trello | Semua | Done |
-| 1.3 | Menentukan GUI dan konsep | Semua | TO DO |
+| 3.1 | Membuat logic giliran permainan | Semua | TO DO |
+| 3.2 | Menentukan kontrol game nya | Semua | TO DO |
+| 3.3 | Memnentukan logika jika player menang | Semua | TO DO |
 
 
 ## Retrospective 

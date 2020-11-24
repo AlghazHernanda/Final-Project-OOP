@@ -11,8 +11,15 @@
 ## Sprint Backlog Keseluruhan 
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| 1.1 | Mempelajari Jframe | Alghaz,bariz,galang | 
+| 1.2 | Membuat Trello | Semua | Done |
+| 1.3 | Menentukan GUI dan konsep | Semua | 
+| 2.1 | Membuat Main menu(menu utama) | Semua | 
+| 2.2 | Menentukan layout game 3x3 | Semua | 
+| 2.3 | Konfigurasi simbol-simbol | Semua | 
+| 3.1 | Membuat logic giliran permainan | Semua | 
+| 3.2 | Menentukan kontrol game nya | Semua | 
+| 3.3 | Memnentukan logika jika player menang | Semua |  
 
 ## Sprint 1 Backlog
 
@@ -21,12 +28,7 @@
 | 1.1 | Mempelajari Jframe | Alghaz,bariz,galang | TO DO |
 | 1.2 | Membuat Trello | Semua | Done |
 | 1.3 | Menentukan GUI dan konsep | Semua | TO DO |
-| 1.4 | Membuat Main menu(menu utama) | Semua | TO DO |
-| 1.5 | Menentukan layout game 3x3 | Semua | TO DO |
-| 1.6 | Konfigurasi simbol-simbol | Semua | TO DO |
-| 1.7 | Membuat logic giliran permainan | Semua | TO DO |
-| 1.8 | Menentukan kontrol game nya | Semua | TO DO |
-| 1.9 | Memnentukan logika jika player menang | Semua | TO DO |
+
 ## Retrospective 
 
 Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
