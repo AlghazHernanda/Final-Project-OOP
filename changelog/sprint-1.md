@@ -19,6 +19,13 @@
 | --- | ---------- | ------- | ------ |
 | 1.1 | Mempelajari Jframe | Alghaz,bariz,galang | TO DO |
 | 1.2 | Membuat Trello | Semua | Done |
+| 1.3 | Menentukan GUI dan konsep | Semua | TO DO |
+| 1.4 | Membuat Main menu(menu utama) | Semua | TO DO |
+| 1.5 | Menentukan layout game 3x3 | Semua | TO DO |
+| 1.6 | Konfigurasi simbol-simbol | Semua | TO DO |
+| 1.7 | Membuat logic giliran permainan | Semua | TO DO |
+| 1.8 | Menentukan kontrol game nya | Semua | TO DO |
+| 1.9 | Memnentukan logika jika player menang | Semua | TO DO |
 
 ## Retrospective 
 
