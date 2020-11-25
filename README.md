@@ -9,7 +9,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 ## Credits
 | NPM           | Name           |
 | ------------- |--------------- |
-| 140810190003  | M. Galanng     |
+| 140810190003  | M. Galang      |
 | 140810190023  | R. Bariz       |
 | 140810190069  | M. Alghaz      |
 
