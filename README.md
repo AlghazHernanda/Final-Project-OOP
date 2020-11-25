@@ -4,14 +4,14 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
+**TicTacToe adalah permainan kertas dan pensil untuk dua pemain, X dan O, yang bergiliran menandai ruang dalam grid 3 × 3. Pemain yang berhasil menempatkan tiga tanda mereka di baris horisontal, vertikal, atau diagonal memenangkan pertandingan.**
 
 ## Credits
-| NPM           | Name           |
-| ------------- |--------------- |
-| 140810190003  | M. Galang      |
-| 140810190023  | R. Bariz       |
-| 140810190069  | M. Alghaz      |
+| NPM           | Name            |
+| ------------- |---------------- |
+| 140810190003  | Muhammad Galang |
+| 140810190023  | Roisyal Bariz   |
+| 140810190069  | Mohamad Alghaz  |
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
