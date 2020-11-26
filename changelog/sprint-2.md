@@ -11,23 +11,26 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 5             | 4             |
 
 ## Sprint 2 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 2.1 | Membuat Main menu(menu utama) | Semua | TO DO |
-| 2.2 | Menentukan layout game 3x3 | Semua | TO DO |
-| 2.3 | Konfigurasi simbol-simbol | Semua | TO DO |
+| 1.1 | Mempelajari Jframe | Alghaz,Bariz,Galang | DONE |
+| 1.3 | Menentukan GUI dan konsep | Alghaz,Bariz,Galang | DONE |
+| 2.1 | Membuat Main menu(menu utama) | Alghaz | FAILED |
+| 2.2 | Menentukan layout game 3x3 | Galang | DONE |
+| 2.3 | Konfigurasi Tombol dan Simbol | Bariz | DONE |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+-Sprint planning yang terlalu sedikit.
+-Awalnya mau ada menu utama,tapi gajadi karena TicTacToe biasanya tidak ada menu utama.
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | Membuat logic giliran permainan | Semua | 
-| 3.2 | Menentukan kontrol game nya | Semua | 
-| 3.3 | Memnentukan logika jika player menang | Semua | 
+| 3.1 | Mempercantik UI | Bariz | 
+| 3.2 | Menentukan Logika Penambahan score pada scoreboard | Galang | 
+| 3.3 | Menentukan logika jika player Seri | Alghaz | 

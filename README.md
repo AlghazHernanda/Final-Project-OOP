@@ -14,19 +14,22 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 | 140810190069  | Mohamad Alghaz  |
 
 ## Change log
-- **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
-   -  Short changes 1
-   - Short changes 2
+- **[Sprint Planning](changelog/sprint-planning.md) - (18 November 2020)** 
+   - Mempelajari Jframe
+   - Diskusi Menentukan konsep game dan Interface
+   - Mencari referensi dari Youtube dan situs lainnya
 
-- **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 1](changelog/sprint-1.md) - (18 November 2020 - 24 November 2020)** 
+   - Mempelajari Jframe
 
-- **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+
+- **[Sprint 2](changelog/sprint-2.md) - (25 November 2020 - 1 Desember 2020)** 
+   - Membuat Layout Game TicTacToe
+   - Mengatur letak panel,button,label dan warna.
+   - Membuat Logika proses Game
+   - Membuat logika apabila pemain menang
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
+- **[Sprint 3](changelog/sprint-3.md) - (2 Desember 2020 - 8 November 2020)** 
    - Short changes 1
    - Short changes 2
 

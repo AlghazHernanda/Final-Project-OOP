@@ -12,23 +12,23 @@
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
 | 1.1 | Mempelajari Jframe | Alghaz,bariz,galang | 
-| 1.2 | Membuat Trello | Semua | Done |
-| 1.3 | Menentukan GUI dan konsep | Semua | 
-| 2.1 | Membuat Main menu(menu utama) | Semua | 
-| 2.2 | Menentukan layout game 3x3 | Semua | 
-| 2.3 | Konfigurasi simbol-simbol | Semua | 
-| 3.1 | Membuat logic giliran permainan | Semua | 
-| 3.2 | Menentukan kontrol game nya | Semua | 
-| 3.3 | Memnentukan logika jika player menang | Semua |  
+| 1.2 | Membuat Trello | Alghaz,Bariz,Galang | Done |
+| 1.3 | Menentukan GUI dan konsep | Alghaz,Bariz,Galang | 
+| 2.1 | Membuat Main menu(menu utama) | Alghaz | 
+| 2.2 | Menentukan layout game 3x3 | Galang | 
+| 2.3 | Konfigurasi Tombol dan Simbol | Bariz | 
+| 3.1 | Mempercantik UI | Bariz | 
+| 3.2 | Menentukan Logika Penambahan score pada scoreboard | Galang | 
+| 3.3 | Menentukan logika jika player Seri | Alghaz |  
 
 ## Sprint 1 Backlog
 
-| ID  | Title/Desc | Asignee | Status |
-| --- | ---------- | ------- | ------ |
-| 1.1 | Mempelajari Jframe | Alghaz,bariz,galang | TO DO |
-| 1.2 | Membuat Trello | Semua | Done |
-| 1.3 | Menentukan GUI dan konsep | Semua | TO DO |
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
+| 1.1 | Mempelajari Jframe | Alghaz,bariz,galang | 
+| 1.2 | Membuat Trello  | Alghaz,bariz,galang |
+| 1.3 | Menentukan GUI dan konsep | Alghaz,bariz,galang | 
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+-

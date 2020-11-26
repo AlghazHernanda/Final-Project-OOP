@@ -32,6 +32,6 @@
 | --- | ---------- | ------- | 
 | 1.1 | Mempelajari Jframe | Alghaz,Bariz,Galang |
 | 1.3 | Menentukan GUI dan konsep | Alghaz,Bariz,Galang |
-| 2.1 | Membuat Main menu(menu utama) | Galang |
-| 2.2 | Menentukan layout game 3x3 | Bariz |
-| 2.3 | Konfigurasi simbol-simbol | Alghaz |
+| 2.1 | Membuat Main menu(menu utama) | Alghaz |
+| 2.2 | Menentukan layout game 3x3 | Galang |
+| 2.3 | Konfigurasi Tombol dan Simbol | Bariz |

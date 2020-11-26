@@ -17,12 +17,12 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 3.1 | Membuat logic giliran permainan | Semua | TO DO |
-| 3.2 | Menentukan kontrol game nya | Semua | TO DO |
-| 3.3 | Memnentukan logika jika player menang | Semua | TO DO |
+| 3.1 | Mempercantik UI | Bariz | TO DO | 
+| 3.2 | Menentukan Logika Penambahan score pada scoreboard | Galang | TO DO | 
+| 3.3 | Menentukan logika jika player Seri | Alghaz | TO DO | 
 
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+-
 
