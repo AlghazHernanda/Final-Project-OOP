@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author GALANG
+ * @author GALANG ALGHAZ BARIZ
  */
 public class TicTacToe extends javax.swing.JFrame {
     
@@ -22,16 +22,16 @@ public class TicTacToe extends javax.swing.JFrame {
   
 
     /**
-     * Creates new form TicTacToe
+     * membuat form tictactoe
      */
     public TicTacToe() {
         initComponents();
-        setSize(1200,600);
+        setSize(1200,600);  //size dari game tictactoe nya
         setLocationRelativeTo(null);
     }
     
     
-    
+    //memulai permainan dengan o dan x
     private void choose_a_Player()
     {
         if (startGame.equalsIgnoreCase("X"))
@@ -58,6 +58,7 @@ public class TicTacToe extends javax.swing.JFrame {
         String b8 = jButton8.getText();
         String b9 = jButton9.getText();
         
+        //logic untuk x dapet point
         if(b1 ==("X")&& b2 ==("X")&& b3 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -65,6 +66,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton2.setBackground(Color.YELLOW);
             jButton3.setBackground(Color.YELLOW);
         }
+        //logic untuk b dapet point
         if(b1 ==("O")&& b2 ==("O")&& b3 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);

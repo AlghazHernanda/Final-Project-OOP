@@ -1,3 +1,8 @@
+/*
+Nama = Mohamad Alghaz Hernanda(069), Muhammad Galang Satria (003), Roisyal Bariz (023)
+kelas = A
+Tugas = Project TicTacToe
+*/
 public class Main{
 public static void main(String args[]) {
     /* Set the Nimbus look and feel */
@@ -23,7 +28,7 @@ public static void main(String args[]) {
     }
     //</editor-fold>
 
-    /* Create and display the form */
+    /* membuat dan menampilkan display */
     java.awt.EventQueue.invokeLater(new Runnable() {
         public void run() {
             new TicTacToe().setVisible(true);
