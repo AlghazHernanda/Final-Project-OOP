@@ -24,7 +24,8 @@ public class TicTacToe extends javax.swing.JFrame {
     /**
      * membuat form tictactoe
      */
-    public TicTacToe() {
+    public TicTacToe() 
+    {
         initComponents();
         setSize(1200,600);  //size dari game tictactoe nya
         setLocationRelativeTo(null);
@@ -44,6 +45,7 @@ public class TicTacToe extends javax.swing.JFrame {
         }
     }
     
+    //logic untuk memenangkan pertandingan dan mendapatkan point
     private void winningGame()
     {
         String b1 = jButton1.getText();
@@ -66,7 +68,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton2.setBackground(Color.YELLOW);
             jButton3.setBackground(Color.YELLOW);
         }
-        //logic untuk b dapet point
+        //logic untuk o dapet point
         if(b1 ==("O")&& b2 ==("O")&& b3 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -75,7 +77,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton3.setBackground(Color.YELLOW);
         }
        
-        
+        //logic untuk x dapet point
         if(b4 ==("X")&& b5 ==("X")&& b6 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -83,6 +85,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton5.setBackground(Color.ORANGE);
             jButton6.setBackground(Color.ORANGE);
         }
+        //logic untuk o dapet point
         if(b4 ==("O")&& b5 ==("O")&& b6 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -91,6 +94,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton6.setBackground(Color.ORANGE);
         }
         
+        //logic untuk x dapet point
         if(b7 ==("X")&& b8 ==("X")&& b9 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -98,6 +102,8 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton8.setBackground(Color.CYAN);
             jButton9.setBackground(Color.CYAN);
         }
+
+        //logic untuk o dapet point
         if(b7 ==("O")&& b8 ==("O")&& b9 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -106,6 +112,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton9.setBackground(Color.CYAN);
         }
         
+        //logic untuk x dapet point
         if(b1 ==("X")&& b5 ==("X")&& b9 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -113,6 +120,8 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton5.setBackground(Color.YELLOW);
             jButton9.setBackground(Color.YELLOW);
         }
+
+        //logic untuk o dapet point
         if(b1 ==("O")&& b5 ==("O")&& b9 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -121,6 +130,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton9.setBackground(Color.YELLOW);
         }
         
+        //logic untuk x dapet point
         if(b3 ==("X")&& b5 ==("X")&& b7 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -128,6 +138,8 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton5.setBackground(Color.CYAN);
             jButton7.setBackground(Color.CYAN);
         }
+
+        //logic untuk o dapet point
         if(b3 ==("O")&& b5 ==("O")&& b7 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -136,6 +148,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton7.setBackground(Color.CYAN);
         }
         
+        //logic untuk x dapet point
         if(b1 ==("X")&& b4 ==("X")&& b7 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -143,6 +156,8 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton4.setBackground(Color.YELLOW);
             jButton7.setBackground(Color.YELLOW);
         }
+
+        //logic untuk o dapet point
         if(b1 ==("O")&& b4 ==("O")&& b7 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -151,6 +166,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton7.setBackground(Color.YELLOW);
         }
         
+        //logic untuk x dapet point
         if(b2 ==("X")&& b5 ==("X")&& b8 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -158,6 +174,8 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton5.setBackground(Color.CYAN);
             jButton8.setBackground(Color.CYAN);
         }
+
+        //logic untuk o dapet point
         if(b2 ==("O")&& b5 ==("O")&& b8 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -166,6 +184,7 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton8.setBackground(Color.CYAN);
         }
         
+        //logic untuk x dapet point
         if(b3 ==("X")&& b6 ==("X")&& b9 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -173,6 +192,8 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton6.setBackground(Color.CYAN);
             jButton9.setBackground(Color.CYAN);
         }
+
+        //logic untuk o dapet point
         if(b3 ==("O")&& b6 ==("O")&& b9 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -189,7 +210,8 @@ public class TicTacToe extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents() 
+    {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -430,7 +452,8 @@ public class TicTacToe extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jButton5ActionPerformed
         jButton5.setText(startGame);
         
         if (startGame.equalsIgnoreCase("X"))
@@ -445,7 +468,9 @@ public class TicTacToe extends javax.swing.JFrame {
         winningGame();
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jButton6ActionPerformed
+
        jButton6.setText(startGame);
         
         if (startGame.equalsIgnoreCase("X"))
@@ -460,7 +485,8 @@ public class TicTacToe extends javax.swing.JFrame {
         winningGame();
     }//GEN-LAST:event_jButton6ActionPerformed
 private JFrame frame;
-    private void jbtnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnExitActionPerformed
+    private void jbtnExitActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jbtnExitActionPerformed
         frame = new JFrame("Exit");
          if(JOptionPane.showConfirmDialog(frame, "Are You Sure?","Tic Tac Toe",
                 JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION)
@@ -469,7 +495,8 @@ private JFrame frame;
         }
     }//GEN-LAST:event_jbtnExitActionPerformed
 
-    private void jbtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnResetActionPerformed
+    private void jbtnResetActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jbtnResetActionPerformed
 
         jButton1.setText(null);
         jButton2.setText(null);
@@ -496,7 +523,8 @@ private JFrame frame;
         jButton9.setBackground(Color.LIGHT_GRAY);
     }//GEN-LAST:event_jbtnResetActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jButton1ActionPerformed
         
         jButton1.setText(startGame);
         
@@ -512,7 +540,8 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jButton2ActionPerformed
         jButton2.setText(startGame);
         
         if (startGame.equalsIgnoreCase("X"))
@@ -527,7 +556,8 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jButton3ActionPerformed
         jButton3.setText(startGame);
         
         if (startGame.equalsIgnoreCase("X"))
@@ -542,7 +572,8 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt)
+     {//GEN-FIRST:event_jButton4ActionPerformed
         jButton4.setText(startGame);
         
         if (startGame.equalsIgnoreCase("X"))
@@ -557,7 +588,8 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jButton7ActionPerformed
         jButton7.setText(startGame);
         
         if (startGame.equalsIgnoreCase("X"))
@@ -572,7 +604,8 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton7ActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jButton8ActionPerformed
         jButton8.setText(startGame);
         
         if (startGame.equalsIgnoreCase("X"))
@@ -587,7 +620,8 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton8ActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) 
+    {//GEN-FIRST:event_jButton9ActionPerformed
         jButton9.setText(startGame);
         
         if (startGame.equalsIgnoreCase("X"))
@@ -618,13 +652,17 @@ private JFrame frame;
                     break;
                 }
             }
-        } catch (ClassNotFoundException ex) {
+        } 
+        catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(TicTacToe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
+        } 
+        catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(TicTacToe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
+        } 
+        catch (IllegalAccessException ex) {
             java.util.logging.Logger.getLogger(TicTacToe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } 
+        catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(TicTacToe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
