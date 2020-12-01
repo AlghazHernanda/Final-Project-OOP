@@ -34,3 +34,5 @@
 | 3.1 | Mempercantik UI | Bariz | 
 | 3.2 | Menentukan Logika Penambahan score pada scoreboard | Galang | 
 | 3.3 | Menentukan logika jika player Seri | Alghaz | 
+| 3.4 | Merapihkan code dan menjelaskannya lagi | Alghaz |  
+| 3.5 | Mengetest Game Tictatoe untuk membenarkan Bug | Semua | 
