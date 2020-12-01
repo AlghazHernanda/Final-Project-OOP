@@ -20,6 +20,8 @@
 | 3.1 | Mempercantik UI | Bariz | 
 | 3.2 | Menentukan Logika Penambahan score pada scoreboard | Galang | 
 | 3.3 | Menentukan logika jika player Seri | Alghaz |  
+| 3.4 | Merapihkan code dan menjelaskannya lagi | Alghaz | TO DO | 
+| 3.5 | Mengetest Game Tictatoe lagi untuk membenarkan Bug(error) | Semua | TO DO | 
 
 ## Sprint 1 Backlog
 
