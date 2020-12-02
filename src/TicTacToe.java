@@ -27,7 +27,7 @@ public class TicTacToe extends javax.swing.JFrame {
     public TicTacToe() 
     {
         initComponents();
-        setSize(1200,600);  //size dari game tictactoe nya
+        setSize(1200,600);  //size layout dari game tictactoe nya
         setLocationRelativeTo(null);
     }
     
@@ -675,7 +675,7 @@ private JFrame frame;
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // deklarasi variabel
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
