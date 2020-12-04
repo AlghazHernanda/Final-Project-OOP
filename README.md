@@ -44,6 +44,7 @@ Main file `Main.java` atau TicTacToe dapat dijalankan dengan 2 cara yaitu :
 java Main
 ```
 Pada terminal,user dapat mengcompile dulu file method TicTacToe.java,lalu compile file Main.java
+
 ### 2.Run di Text Editor APACHE NETBEANS IDE 12
 
 ```
