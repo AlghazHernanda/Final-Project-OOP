@@ -53,8 +53,19 @@ Pada Netbeans,user hanya perlu klik 1 tombol RUN untuk menjalankan Game TicTacTo
 
 ## Method Used
 
-#### gamescore() `private void gameScore()`
+#### 1. gamescore() `private void gameScore()`
 fungsi untuk mendeklarasikan papanscore
+
+#### 2. choose_a_Player() `private void choose_a_Player()`
+fungsi untuk memilih player x atau o
+
+#### 3. winningGame() `private void winningGame()`
+berisi logic untuk mendapatkan score jika x atau o menang
+
+#### 4. tictactoe `public TicTacToe()`
+mendeklarasikan luas kanvas untuk game nya
+
+
 
 UML image here
 
