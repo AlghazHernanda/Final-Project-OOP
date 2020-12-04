@@ -15,12 +15,44 @@ import javax.swing.JOptionPane;
  */
 public class TicTacToe extends javax.swing.JFrame {
     
-  private String startGame ="X";
+  // deklarasi variabel
+    private String startGame ="X";
   private int xCount = 0;
   private int oCount = 0;
+  private javax.swing.JButton jButton1;
+  private javax.swing.JButton jButton2;
+  private javax.swing.JButton jButton3;
+  private javax.swing.JButton jButton4;
+  private javax.swing.JButton jButton5;
+  private javax.swing.JButton jButton6;
+  private javax.swing.JButton jButton7;
+  private javax.swing.JButton jButton8;
+  private javax.swing.JButton jButton9;
+  private javax.swing.JLabel jLabel1;
+  private javax.swing.JLabel jLabel2;
+  private javax.swing.JLabel jLabel4;
+  private javax.swing.JPanel jPanel1;
+  private javax.swing.JPanel jPanel10;
+  private javax.swing.JPanel jPanel11;
+  private javax.swing.JPanel jPanel12;
+  private javax.swing.JPanel jPanel13;
+  private javax.swing.JPanel jPanel14;
+  private javax.swing.JPanel jPanel15;
+  private javax.swing.JPanel jPanel16;
+  private javax.swing.JPanel jPanel17;
+  private javax.swing.JPanel jPanel2;
+  private javax.swing.JPanel jPanel3;
+  private javax.swing.JPanel jPanel4;
+  private javax.swing.JPanel jPanel5;
+  private javax.swing.JPanel jPanel6;
+  private javax.swing.JPanel jPanel7;
+  private javax.swing.JPanel jPanel8;
+  private javax.swing.JPanel jPanel9;
+  private javax.swing.JButton jbtnExit;
+  private javax.swing.JButton jbtnReset;
+  private javax.swing.JLabel jlblPlayerO;
+  private javax.swing.JLabel jlblPlayerX;
   
-  
-
     /**
      * membuat form tictactoe
      */
@@ -29,6 +61,13 @@ public class TicTacToe extends javax.swing.JFrame {
         initComponents();
         setSize(1200,600);  //size layout dari game tictactoe nya
         setLocationRelativeTo(null);
+    }
+
+    //Method menambahkan score pada pemenang
+    private void gameScore()
+    {
+        jlblPlayerX.setText(String.valueOf(xCount));
+        jlblPlayerO.setText(String.valueOf(oCount));
     }
     
     
@@ -64,6 +103,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b1 ==("X")&& b2 ==("X")&& b3 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            xCount++;
+            gameScore(); //method X bertambah score apabila menang
             jButton1.setBackground(Color.YELLOW);
             jButton2.setBackground(Color.YELLOW);
             jButton3.setBackground(Color.YELLOW);
@@ -72,6 +113,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b1 ==("O")&& b2 ==("O")&& b3 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore(); //method O bertambah score apabila menang
             jButton1.setBackground(Color.YELLOW);
             jButton2.setBackground(Color.YELLOW);
             jButton3.setBackground(Color.YELLOW);
@@ -81,6 +124,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b4 ==("X")&& b5 ==("X")&& b6 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            xCount++;
+            gameScore(); //method X bertambah score apabila menang
             jButton4.setBackground(Color.ORANGE);
             jButton5.setBackground(Color.ORANGE);
             jButton6.setBackground(Color.ORANGE);
@@ -89,6 +134,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b4 ==("O")&& b5 ==("O")&& b6 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore(); //method O bertambah score apabila menang
             jButton4.setBackground(Color.ORANGE);
             jButton5.setBackground(Color.ORANGE);
             jButton6.setBackground(Color.ORANGE);
@@ -98,6 +145,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b7 ==("X")&& b8 ==("X")&& b9 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            xCount++;
+            gameScore(); //method X bertambah score apabila menang
             jButton7.setBackground(Color.CYAN);
             jButton8.setBackground(Color.CYAN);
             jButton9.setBackground(Color.CYAN);
@@ -107,6 +156,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b7 ==("O")&& b8 ==("O")&& b9 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore(); //method O bertambah score apabila menang
             jButton7.setBackground(Color.CYAN);
             jButton8.setBackground(Color.CYAN);
             jButton9.setBackground(Color.CYAN);
@@ -116,6 +167,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b1 ==("X")&& b5 ==("X")&& b9 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            xCount++;
+            gameScore(); //method X bertambah score apabila menang
             jButton1.setBackground(Color.YELLOW);
             jButton5.setBackground(Color.YELLOW);
             jButton9.setBackground(Color.YELLOW);
@@ -125,6 +178,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b1 ==("O")&& b5 ==("O")&& b9 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore(); //method O bertambah score apabila menang
             jButton1.setBackground(Color.YELLOW);
             jButton5.setBackground(Color.YELLOW);
             jButton9.setBackground(Color.YELLOW);
@@ -134,6 +189,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b3 ==("X")&& b5 ==("X")&& b7 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            xCount++;
+            gameScore(); //method X bertambah score apabila menang
             jButton3.setBackground(Color.CYAN);
             jButton5.setBackground(Color.CYAN);
             jButton7.setBackground(Color.CYAN);
@@ -143,6 +200,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b3 ==("O")&& b5 ==("O")&& b7 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore(); //method O bertambah score apabila menang
             jButton3.setBackground(Color.CYAN);
             jButton5.setBackground(Color.CYAN);
             jButton7.setBackground(Color.CYAN);
@@ -152,6 +211,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b1 ==("X")&& b4 ==("X")&& b7 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            xCount++;
+            gameScore(); //method X bertambah score apabila menang
             jButton1.setBackground(Color.YELLOW);
             jButton4.setBackground(Color.YELLOW);
             jButton7.setBackground(Color.YELLOW);
@@ -161,6 +222,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b1 ==("O")&& b4 ==("O")&& b7 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore(); //method O bertambah score apabila menang
             jButton1.setBackground(Color.YELLOW);
             jButton4.setBackground(Color.YELLOW);
             jButton7.setBackground(Color.YELLOW);
@@ -170,6 +233,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b2 ==("X")&& b5 ==("X")&& b8 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            xCount++;
+            gameScore(); //method X bertambah score apabila menang
             jButton2.setBackground(Color.CYAN);
             jButton5.setBackground(Color.CYAN);
             jButton8.setBackground(Color.CYAN);
@@ -179,6 +244,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b2 ==("O")&& b5 ==("O")&& b8 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore(); //method O bertambah score apabila menang
             jButton2.setBackground(Color.CYAN);
             jButton5.setBackground(Color.CYAN);
             jButton8.setBackground(Color.CYAN);
@@ -188,6 +255,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b3 ==("X")&& b6 ==("X")&& b9 ==("X"))
         {
             JOptionPane.showMessageDialog(this,"Player X WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            xCount++;
+            gameScore(); //method X bertambah score apabila menang
             jButton3.setBackground(Color.CYAN);
             jButton6.setBackground(Color.CYAN);
             jButton9.setBackground(Color.CYAN);
@@ -197,6 +266,8 @@ public class TicTacToe extends javax.swing.JFrame {
         if(b3 ==("O")&& b6 ==("O")&& b9 ==("O"))
         {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore(); //method O bertambah score apabila menang
             jButton3.setBackground(Color.CYAN);
             jButton6.setBackground(Color.CYAN);
             jButton9.setBackground(Color.CYAN);
@@ -675,39 +746,6 @@ private JFrame frame;
         });
     }
 
-    // deklarasi variabel
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
-    private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
-    private javax.swing.JButton jbtnExit;
-    private javax.swing.JButton jbtnReset;
-    private javax.swing.JLabel jlblPlayerO;
-    private javax.swing.JLabel jlblPlayerX;
-    // End of variables declaration//GEN-END:variables
+    
+    
 }

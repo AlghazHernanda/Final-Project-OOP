@@ -30,12 +30,26 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Membuat logika apabila pemain menang
    
 - **[Sprint 3](changelog/sprint-3.md) - (2 Desember 2020 - 8 November 2020)** 
-   - Short changes 1
-   - Short changes 2
+   - Membuat logika game apabila seri
+   - Mempercantik UI
+   - Melakukan Test Game Tictatoe untuk membenarkan Bug
 
 ## Running The App
 
-TO;DO with steps
+Main file `Main.java` atau TicTacToe dapat dijalankan dengan 2 cara yaitu :
+
+### 1.Menjalankan tanpa parameter
+
+```
+java Main
+```
+Pada terminal,user dapat mengcompile dulu file method TicTacToe.java,lalu compile file Main.java
+### 2.Run di Text Editor APACHE NETBEANS IDE 12
+
+```
+Run and Execute
+```
+Pada Netbeans,user hanya perlu klik 1 tombol RUN untuk menjalankan Game TicTacToe.
 
 ## Classes Used
 

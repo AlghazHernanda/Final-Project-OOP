@@ -18,7 +18,7 @@
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
 | 3.1 | Mempercantik UI | Bariz | TO DO | 
-| 3.2 | Menentukan Logika Penambahan score pada scoreboard | Galang | TO DO | 
+| 3.2 | Menentukan Logika Penambahan score pada scoreboard | Galang | DONE | 
 | 3.3 | Menentukan logika jika player Seri | Alghaz | TO DO | 
 | 3.4 | Merapihkan code dan menjelaskannya lagi | Alghaz | TO DO | 
 | 3.5 | Mengetest Game Tictatoe untuk membenarkan Bug | Semua | TO DO | 
