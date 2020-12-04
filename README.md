@@ -51,9 +51,10 @@ Run and Execute
 ```
 Pada Netbeans,user hanya perlu klik 1 tombol RUN untuk menjalankan Game TicTacToe.
 
-## Classes Used
+## Method Used
 
-TO;DO
+#### gamescore() `private void gameScore()`
+fungsi untuk mendeklarasikan papanscore
 
 UML image here
 
