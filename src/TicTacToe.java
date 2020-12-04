@@ -115,9 +115,9 @@ public class TicTacToe extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore(); //method O bertambah score apabila menang
-            jButton1.setBackground(Color.YELLOW);
-            jButton2.setBackground(Color.YELLOW);
-            jButton3.setBackground(Color.YELLOW);
+            jButton1.setBackground(Color.RED);
+            jButton2.setBackground(Color.RED);
+            jButton3.setBackground(Color.RED);
         }
        
         //logic untuk x dapet point
@@ -136,9 +136,9 @@ public class TicTacToe extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore(); //method O bertambah score apabila menang
-            jButton4.setBackground(Color.ORANGE);
-            jButton5.setBackground(Color.ORANGE);
-            jButton6.setBackground(Color.ORANGE);
+            jButton4.setBackground(Color.GREEN);
+            jButton5.setBackground(Color.GREEN);
+            jButton6.setBackground(Color.GREEN);
         }
         
         //logic untuk x dapet point
@@ -158,9 +158,9 @@ public class TicTacToe extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore(); //method O bertambah score apabila menang
-            jButton7.setBackground(Color.CYAN);
-            jButton8.setBackground(Color.CYAN);
-            jButton9.setBackground(Color.CYAN);
+            jButton7.setBackground(Color.DARK_GRAY);
+            jButton8.setBackground(Color.DARK_GRAY);
+            jButton9.setBackground(Color.DARK_GRAY);
         }
         
         //logic untuk x dapet point
@@ -180,9 +180,9 @@ public class TicTacToe extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore(); //method O bertambah score apabila menang
-            jButton1.setBackground(Color.YELLOW);
-            jButton5.setBackground(Color.YELLOW);
-            jButton9.setBackground(Color.YELLOW);
+            jButton1.setBackground(Color.PINK);
+            jButton5.setBackground(Color.PINK);
+            jButton9.setBackground(Color.PINK);
         }
         
         //logic untuk x dapet point
@@ -202,9 +202,9 @@ public class TicTacToe extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this,"Player O WINS","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore(); //method O bertambah score apabila menang
-            jButton3.setBackground(Color.CYAN);
-            jButton5.setBackground(Color.CYAN);
-            jButton7.setBackground(Color.CYAN);
+            jButton3.setBackground(Color.MAGENTA);
+            jButton5.setBackground(Color.MAGENTA);
+            jButton7.setBackground(Color.MAGENTA);
         }
         
         //logic untuk x dapet point
