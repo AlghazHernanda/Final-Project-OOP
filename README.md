@@ -66,6 +66,15 @@ berisi logic untuk mendapatkan score jika x atau o menang
 #### 4. tictactoe `public TicTacToe()`
 mendeklarasikan luas kanvas untuk game nya
 
+#### 5. jbtnExitActionPerformed(java.awt.event.ActionEvent evt) `private void jbtnExitActionPerformed(java.awt.event.ActionEvent evt)`
+logic untuk mengakhiri permainan
+
+#### 6. jbtnResetActionPerformed(java.awt.event.ActionEvent evt) `private void jbtnResetActionPerformed(java.awt.event.ActionEvent evt)`
+logic untuk reset game
+
+#### 7. jButton1ActionPerformed(java.awt.event.ActionEvent evt) `private void jButton1ActionPerformed(java.awt.event.ActionEvent evt)`
+jadi jika pemain x akan berwarna merah, dan pemain o akan berwarna biru
+
 
 
 UML image here
