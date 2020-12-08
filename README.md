@@ -73,4 +73,4 @@ UML image here
 ## Notable Assumption and Design App Details
 
 - Pada game TicTacToe kami,saat player menang,akan muncul warna yang menandakan line winning player.Ada warna biru,hijau dll.
-- Terdapat tombol ** Reset ** untuk memulai game dari awal,tetapi scorenya tetap ada dan terus tercatat sampai game ditutup.
+- Terdapat tombol Reset untuk memulai game dari awal,tetapi scorenya tetap ada dan terus tercatat sampai game ditutup.
