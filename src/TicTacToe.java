@@ -325,19 +325,19 @@ public class TicTacToe extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102), 3));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 100)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Tic Tac Toe");
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 100)); // judul dengan font tahoma,size 100,bold
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);   //agar judul nya ditengah
+        jLabel1.setText("Tic Tac Toe");  //judul tictactoe
         jLabel1.setToolTipText("");
         jPanel1.add(jLabel1, java.awt.BorderLayout.PAGE_START);
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 0));
-        jPanel2.setLayout(new java.awt.GridLayout(3, 5, 2, 2));
+        jPanel2.setLayout(new java.awt.GridLayout(3, 5, 2, 2));  //mengatur grit layout nya untuk menaruh panel nya
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255)); //membuat bacground warna agar bergaris garis
         jPanel3.setLayout(new java.awt.BorderLayout());
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N  //mengatur font huruf di button menjadi tahoma dan size nya 80
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -376,8 +376,8 @@ public class TicTacToe extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setLayout(new java.awt.BorderLayout());
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
-        jLabel2.setText("PEMAIN X : ");
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N   mengatur font "palayer x" menjadi tahoma dengan size 30
+        jLabel2.setText("PEMAIN X : ");    //menulis "pemain x"
         jPanel6.add(jLabel2, java.awt.BorderLayout.CENTER);
 
         jPanel2.add(jPanel6);
@@ -386,7 +386,7 @@ public class TicTacToe extends javax.swing.JFrame {
         jPanel7.setLayout(new java.awt.BorderLayout());
 
         jlblPlayerX.setFont(new java.awt.Font("Tahoma", 1, 40)); // NOI18N
-        jlblPlayerX.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jlblPlayerX.setHorizontalAlignment(javax.swing.SwingConstants.CENTER); //agar berada di tengah
         jPanel7.add(jlblPlayerX, java.awt.BorderLayout.CENTER);
 
         jPanel2.add(jPanel7);
@@ -433,8 +433,8 @@ public class TicTacToe extends javax.swing.JFrame {
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
         jPanel11.setLayout(new java.awt.BorderLayout());
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
-        jLabel4.setText("PEMAIN O :");
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N mengatur font "palayer 0" menjadi tahoma dengan size 30
+        jLabel4.setText("PEMAIN O :"); //mengubah text menjadi player O
         jPanel11.add(jLabel4, java.awt.BorderLayout.CENTER);
 
         jPanel2.add(jPanel11);
@@ -491,7 +491,7 @@ public class TicTacToe extends javax.swing.JFrame {
         jPanel16.setLayout(new java.awt.BorderLayout());
 
         jbtnReset.setFont(new java.awt.Font("Tahoma", 1, 40)); // NOI18N
-        jbtnReset.setText("RESTART");
+        jbtnReset.setText("RESTART");                                     //mengubah text menjadi restart
         jbtnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnResetActionPerformed(evt);
@@ -505,7 +505,7 @@ public class TicTacToe extends javax.swing.JFrame {
         jPanel17.setLayout(new java.awt.BorderLayout());
 
         jbtnExit.setFont(new java.awt.Font("Tahoma", 1, 40)); // NOI18N
-        jbtnExit.setText("EXIT");
+        jbtnExit.setText("EXIT");                                           //mengubah text menjadi exit
         jbtnExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnExitActionPerformed(evt);
@@ -556,20 +556,20 @@ public class TicTacToe extends javax.swing.JFrame {
         winningGame();
     }//GEN-LAST:event_jButton6ActionPerformed
 private JFrame frame;
-    private void jbtnExitActionPerformed(java.awt.event.ActionEvent evt) 
+    private void jbtnExitActionPerformed(java.awt.event.ActionEvent evt) //logic untuk exit permainan
     {//GEN-FIRST:event_jbtnExitActionPerformed
-        frame = new JFrame("Exit");
+        frame = new JFrame("Exit");                                       //akan ada pop out untuk keluar dari permainan
          if(JOptionPane.showConfirmDialog(frame, "Are You Sure?","Tic Tac Toe",
                 JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION)
         {
-            System.exit(0);
+            System.exit(0);                                               //keluar dari permainan
         }
     }//GEN-LAST:event_jbtnExitActionPerformed
 
-    private void jbtnResetActionPerformed(java.awt.event.ActionEvent evt) 
+    private void jbtnResetActionPerformed(java.awt.event.ActionEvent evt) //logic untuk reset game
     {//GEN-FIRST:event_jbtnResetActionPerformed
 
-        jButton1.setText(null);
+        jButton1.setText(null);   //mengembalikan jadi awal lagi
         jButton2.setText(null);
         jButton3.setText(null);
         
@@ -594,7 +594,7 @@ private JFrame frame;
         jButton9.setBackground(Color.LIGHT_GRAY);
     }//GEN-LAST:event_jbtnResetActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) //jadi jika pemain x akan berwarna merah, dan pemain o akan berwarna biru
     {//GEN-FIRST:event_jButton1ActionPerformed
         
         jButton1.setText(startGame);
@@ -611,7 +611,7 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt)  //jadi jika pemain x akan berwarna merah, dan pemain o akan berwarna biru
     {//GEN-FIRST:event_jButton2ActionPerformed
         jButton2.setText(startGame);
         
@@ -627,7 +627,7 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) 
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt)  //jadi jika pemain x akan berwarna merah, dan pemain o akan berwarna biru
     {//GEN-FIRST:event_jButton3ActionPerformed
         jButton3.setText(startGame);
         
@@ -643,7 +643,7 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt)
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt)  //jadi jika pemain x akan berwarna merah, dan pemain o akan berwarna biru
      {//GEN-FIRST:event_jButton4ActionPerformed
         jButton4.setText(startGame);
         
@@ -659,7 +659,7 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) 
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt)  //jadi jika pemain x akan berwarna merah, dan pemain o akan berwarna biru
     {//GEN-FIRST:event_jButton7ActionPerformed
         jButton7.setText(startGame);
         
@@ -675,7 +675,7 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton7ActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) 
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt)  //jadi jika pemain x akan berwarna merah, dan pemain o akan berwarna biru
     {//GEN-FIRST:event_jButton8ActionPerformed
         jButton8.setText(startGame);
         
@@ -691,7 +691,7 @@ private JFrame frame;
         winningGame();
     }//GEN-LAST:event_jButton8ActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) 
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt)  //jadi jika pemain x akan berwarna merah, dan pemain o akan berwarna biru
     {//GEN-FIRST:event_jButton9ActionPerformed
         jButton9.setText(startGame);
         
